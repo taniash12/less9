@@ -1,10 +1,19 @@
+.header-bg{
+    background-color: #FFFFFF;
+    height: 96px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
 .div-wraper{
     max-width: 1440px;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 96px;
+    margin-bottom: 64px;
 }
 .nav-ul{
     display: flex;
@@ -33,7 +42,8 @@
     margin-top: 12px;
 }
 .div-tout{
-    width: 1440px;
+    max-width: 1440px;
+    width: 90%;
     height: 556px;
     margin: 0 auto;
     display: flex;
@@ -48,7 +58,10 @@
     width: 490px;
     height: 428px;
     margin-top: 64px;
-    background-image: url(../img/img.jpg);
+}
+.img-right-block{
+    width: 100%;
+    border-radius: 12px;
 }
 .h1-title{
     font-size: 56px;
@@ -93,7 +106,8 @@
     background-color: #F3F3F3;
 }
 .div-wraper2{
-    width: 1440px;
+    max-width: 1440px;
+    width: 90%;
     height: 244.2px;
     margin: 0 auto;
     display: flex;
@@ -127,13 +141,136 @@
     height: 60.2px;
     color: #000000;
 }
+.section3-bg{
+    background-color:#000000; 
+}
+.div-tout2{
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    height: 620px;
+
+}
+.div-wraper3{
+    width: 1140px;
+    margin: auto auto;
+    display: flex;
+    align-items: center;
+}
+.left-section3{
+    width: 503.5px;
+    margin-right: 133px;
+}
+.right-section3{
+    width: 503.5px;
+}
+.h4-title{
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+.active{
+    color: #FFFFFF;
+    line-height: 24px;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    font-weight: 400;
+}
+.img-border{
+    border-radius: 12px;
+    width: 100%;
+}
+.div-relative{
+    position: relative;
+    z-index: 1;
+}
+.div-absolute{
+    width: 540px;
+    height: 160px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.p-absolute{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.active-p-action{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    font-weight: 700;
+    color: #000000;
+}
+.img-section{
+    width: 100%;
+}
+.div-ection{
+    width: 84px;
+    height: 40px;
+    border-radius: 24px;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-bg{
+    background-color: #000000;
+}
+.div-tout3{
+    max-width: 1440px;
+    width: 90%;
+    height: 336px;
+}
+.div-wraper4{
+    width: 1140px;
+    height: 144px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding: 96px 0;
+}
+.active-title{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.activeactive{
+    font-weight: 500;
+}
+.active-p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+}
+.footer-div{
+    width: 228px;
+}
 /*@media*/
 @media (max-width: 1024px) {
     .div-wraper{
         max-width: 1024px;
-        max-height: 96px;
+        width: 90%;
+        height: 96px;
         margin: 0 auto;
-        margin: 0 24px 0 32px;
     }
     .nav-ul {
         display: flex;
@@ -142,9 +279,18 @@
         margin-right: 24px;
     }
     .div-tout{
-        max-width: 1024px;
+        width: 1024px;
         height: 862px;
         flex-direction: column;
+    }
+    .left-block{
+        width: 960px;
+        height: 348px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
     }
     .h1-title{
         width: 630px;
@@ -165,34 +311,74 @@
         margin: 0 auto;
         width: 960px;
         height: 450px;
-        background-image: none;
-        background-image: url(../img/img2.jpg);
     }
+    .section2-bg{
+        background-color: #F3F3F3;
+        width: 1024px;
+        height: 254px;
+        }
     .div-wraper2{
+        width: 1024px;
+        height: 254px; 
         margin: 0 auto;
-        max-width: 1024px;
-        max-height: 254px; 
     }
     .div-block3{
         width: 279.33px;
         height: 176px;
     }
+    .section3-bg{
+        width: 1024px;
+        height: 895px;
+    }
+    .div-tout2{
+        margin: 0 auto;
+    }
+    .div-wraper3{
+        width: 1024px;
+        height: 895px;
+        flex-direction: column;
+    }
+    .left-section3{
+        width: 960px;
+        height: 550px;
+        justify-content: center;
+        align-items: center;
+    }
+    .right-section3{
+        width: 960px;
+        height: 185px;
+        display: flex;
+        padding-top: 64px;
+    }
+    .div-tout3{
+        margin: 0 auto;
+    }
+    .div-wraper4{
+        width: 960px;
+        height: 219px;
+    }
+    .active-media{
+        display: none;
+    }
 }
 @media (max-width:744px) {
     .div-tout{
-        max-width: 744px;
+        width: 744px;
         height: 760px;
-        flex-direction: column;
     }
     .left-block{
         width: 696px;
-        height: 243px;
+        height: 443px;
     }
     .right-block{
         width: 696px;
         height: 499px;
-        background-image: none;
-        background-image: url(../img/img3.jpg);
+    }
+    .div-section{
+        margin-bottom: -20px;
+    }
+    .div-left3{
+        margin: -30px 0 -20px 0;
     }
     .h1-title{
         width: 696px;
@@ -200,6 +386,7 @@
         text-align: center;
         font-size: 40px;
         line-height: 48.5px;
+        margin-bottom: -20px;
     }
     .p-section1{
         width: 696px;
@@ -244,6 +431,39 @@
         justify-content: center;
         height: 40px;
     }
+    .section3-bg{
+        width: 744px;
+        height: 917px;
+    }
+    .div-tout2{
+        width: 744px;
+    }
+    .div-wraper3{
+        width: 744px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .img-border{
+        width: 100%;
+    }
+    .left-section3{
+        width: 696px;
+        height: 550px;
+        margin: 0 auto;
+    }
+    .right-section3{
+        width: 696px;
+        flex-direction: column;
+    }
+    .active11{
+        width: 696px;
+    }
+    .h4-title{
+        text-align: center;
+    }
+    .active{
+        text-align: center;
+    }
 }
 @media (max-width:375px) {
     .div-wraper{
@@ -265,6 +485,9 @@
     .div-tout{
         max-width: 375px;
         height: 695px;
+    }
+    .h1-title{
+        margin-top: 30px;
     }
     .left-block{
         width: 375px;
@@ -288,8 +511,6 @@
         margin: 0 auto;
         width: 327px;
         height: 309px;
-        background-image: none;
-        background-image: url(../img/img4.jpg);
     }
     .section2-bg{
         width: 375px;
@@ -316,6 +537,70 @@
         width: 327px;
         height: 72px;
         text-align: center;
+    }
+    .section3-bg{
+        width: 375px;
+        height: 523px;
+    }
+    .div-tout2{
+        width: 375px;
+        height: 523px;
+        margin: 0 auto;
+    }
+    .div-wraper3{
+        width: 375px;
+        height: 523px;
+        margin: 0 auto;
+    }
+    .left-section3{
+        width: 375px;
+        height: 195px;
+        margin: 0 auto;
+    }
+    .right-section3{
+        width: 375px;
+        height: 328px;
+        margin: 0 auto;
+    }
+    .active11{
+        width: 327px;
+    }
+    .div-absolute{
+        width: 247px;
+        height: 232px;
+    }
+    .footer-bg{
+        width: 375px;
+        height: 340px;
+        margin: 0 auto;
+    }
+    .div-tout3{
+        width: 375px;
+        height: 340px;
+        margin: 0 auto;
+    }
+    .div-wraper4{
+        width: 315px;
+        height: 235px;
+        margin: 0 auto;
+    }
+    .active100{
+        width: 315px;
+        height: 47px;
+    }
+    .active101{
+        width: 98.33px;
+        height: 168px;
+    }
+    .active102{
+        width: 98.33px;
+        height: 116px;
+    }
+    .active-title{
+        width: 98.33px;
+    }
+    .h4-title{
+        width: 98.33px;
     }
 
 }
